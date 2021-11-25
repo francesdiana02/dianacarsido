@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Form</title>
+    </head>
+
+    <style>
+        body{background-color: #E0BBE4;}
+    </style>
+
+<body>
+    <form>
+        <label for="firstname">First Name:</label><br>
+        <input type="text" id="firstname" name="firstname"><br>
+        
+        <br><label for="middlename">Middle Name:</label><br>
+        <input type="text" id="middlename" name="middlename"><br>
+        
+        <br><label for="lastname">Last Name:</label><br>
+        <input type="text" id="lastname" name="lastname"><br>
+        
+        <p>Gender:</p>
+        <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="female">Female <br>
+        
+        <br><label for="email">Email Address:</label><br>
+        <input type="email" name="email" id="email"><br>
+        
+        <br><label for="address">Home Address:</label><br>
+        <textarea name="address" id="address" cols="30" rows="1" placeholder="your address..."></textarea><br>
+        
+        <p>Hobbies:</p>
+        <input type="checkbox" name="computergames" id="computergames">
+        <label for="computergames">Computer Games</label>
+        <br><input type="checkbox" name="music" id="music">
+        <label for="music">Playing Music Instruments</label>
+        <br><input type="checkbox" name="cooking" id="cooking">
+        <label for="cooking">Cooking</label>
+        <br><input type="checkbox" name="drawing" id="drawing">
+        <label for="drawing">Drawing</label><br>
+        
+        <br><label for="color">Favorite Color:</label>
+        <select name="color" id="color">
+            <option value="c1">Choose your favorite color</option>
+            <option value="c2">Blue</option>
+            <option value="c3">Pink</option>
+            <option value="c4">Black</option>
+            <option value="c5">Red</option>
+            <option value="c6">Violet</option>
+            <option value="c7">White</option>
+            <option value="c8">Green</option>
+            <option value="c9">Yellow</option>
+            <option value="c10">Orange</option>
+            <option value="c11">Others</option>
+        </select><br>
+
+        <br><label for="yourself">Say something about yourself:</label><br>
+        <textarea name="yourself" id="yourself" cols="30" rows="10" placeholder="about yourself..."></textarea><br>
+
+        <br><input type="submit" value="Submit">
+        <input type="reset" value="Clear">
+
+    </form>
+</body>
+
+
+
+</html>
